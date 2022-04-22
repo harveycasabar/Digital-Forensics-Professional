@@ -46,3 +46,13 @@ C:\Windows\Prefetch
 C:\Windows\Tasks
 *.lnk
 *.evtx 
+
+
+
+Task 4: Creating a Full System Image
+
+# Use FTK Imager to create Raw(dd) image or E01 image.
+
+Task 5: Automated Live Response
+
+# Use BriMor Labs Windows Live Response Collection
