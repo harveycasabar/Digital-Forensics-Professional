@@ -1,0 +1,20 @@
+Task 1: Collecting Volatile Data Manually
+## Choose proper <filename> in your file.
+
+````
+echo %date% %time% > <filename>.txt
+tasklist >> <filename>.txt
+tasklist /m >> <filename>.txt
+tasklist /svc >> <filename>.txt
+netstat -nao >> <filename>.txt
+arp -a >> <filename>.txt
+ipconfig /all >> <filename>.txt
+ipconfig /displaydns >> <filename>.txt
+route print >> <filename>.txt
+set >> <filename>.txt
+net user %username% >> <filename>.txt
+net use >> <filename>.txt
+net share >> <filename>.txt
+net config workstation >> <filename>.txt
+systeminfo >> <filename>.txt
+````
