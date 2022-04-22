@@ -18,3 +18,11 @@ net share >> <filename>.txt
 net config workstation >> <filename>.txt
 systeminfo >> <filename>.txt
 ````
+
+Task 2: Dumping the System's Memory
+
+# Use FTK Imager Memory Capture
+
+Task 3: Creating a Custom Forensic Image
+
+# Use FTK Imager
