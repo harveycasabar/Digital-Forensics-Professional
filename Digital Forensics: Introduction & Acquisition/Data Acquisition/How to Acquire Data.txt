@@ -28,18 +28,21 @@ Task 3: Creating a Custom Forensic Image
 # Use FTK Imager
 Windows Artifacts:
 
-a. File System Files: $MFT, $LogFile, $UsnJrnl
-
+a. File System Files
 b. Windows Registry Files
-
-c. Recycle Bin Files
-
+c. Recycle Bin Files 
 d. Log Files
-
 e. Link Files
-
 f. Prefetch Files
-
 g. User Files
-
 h. Task Files
+
+Answers:
+[root]\$MFT, $LogFile, $UsnJrnl
+C:\Windows\System32\Config (SAM|SYSTEM|SOFTWARE|SECURITY|DEFAULT)
+C:\Windows\AppCompat\Programs\RecentFileCache.bcf
+C:\Windows\Prefetch
+[root]\Windows\inf\setupapi.dev.log
+C:\Windows\Tasks
+*.lnk
+*.evtx 
