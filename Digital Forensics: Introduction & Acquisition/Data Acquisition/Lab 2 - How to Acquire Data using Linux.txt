@@ -1,0 +1,13 @@
+Lab 2 How to Acquire Data using Linux (Offline)
+
+Task 1: Preparing the Evidence Drive (Target)
+
+dd if=/dev/zero of=/dev/sdb bs=512 conv=noerror,sync
+sudo fdisk /dev/sdb
+sudo partprobe
+sudo mkfs -t ext4 /dev/sdb1
+sudo mkfs.ext4 /dev/sdb1
+sudo mount /dev/sdb1 /cases/
+sudo mkdir -p /cases/case003/Disk1/Images/Part1
+cd /cases/case003/Disk1
+dmesg | grep sd | tee disk1_dmesg.txt
